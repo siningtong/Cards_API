@@ -4,7 +4,11 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <Deck />;
+    return (
+      <div className="App">
+        <Deck />
+      </div>
+    );
   }
 }
 
